@@ -1,0 +1,26 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pertemuan9"
+        mc:Ignorable="d"
+        Title="Main Menu" Height="300" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock VerticalAlignment="Top" Margin="30" Text="Andika Wahyudi Was Here!" TextAlignment="Center"/>
+        <Button Content="Penggunaan IF..endIF" Width="200" Height="40" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,100" Click="Button_Click"/>
+        <Button Content="Penggunaan IF..else..endIF" Width="200" Height="40" FontSize="15" HorizontalAlignment="Left" Margin="20,0,0,0" Click="Button_Click_1"/>
+        <Button Content="Penggunaan Select..Case" Width="200" Height="40" FontSize="15" HorizontalAlignment="Left" Margin="20,0,0,-100" Click="Button_Click_2"/>
+
+        <Frame Grid.Column="1" x:Name="mainFrame"/>
+    </Grid>
+    
+
+</Window>
